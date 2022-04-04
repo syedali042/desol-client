@@ -1,0 +1,33 @@
+*****************************************************
+*****************************************************
+*******************    EIA-GOV    *******************
+*****************************************************
+*****************************************************
+
+
+EIA - California Demand Data : https://api.eia.gov/series/?api_key=8hmyfvRy1fe5gY6cuMTMESMk0s1C4bKZ1pczxju4&series_id=EBA.CAL-ALL.D.HL
+EIA - Texas Demand Data : https://api.eia.gov/series/?api_key=8hmyfvRy1fe5gY6cuMTMESMk0s1C4bKZ1pczxju4&series_id=EBA.TEX-ALL.D.HL
+EIA - New York Demand Data : https://api.eia.gov/series/?api_key=8hmyfvRy1fe5gY6cuMTMESMk0s1C4bKZ1pczxju4&series_id=EBA.NY-ALL.D.HL
+EIA - Minnesota Demand Data : https://api.eia.gov/series/?api_key=8hmyfvRy1fe5gY6cuMTMESMk0s1C4bKZ1pczxju4&series_id=EBA.MIDW-ALL.D.HL
+
+
+
+*****************************************************
+*****************************************************
+*****************    ACC-WEATHER    *****************
+*****************************************************
+*****************************************************
+
+California Hourly Weather Forecasting Api : http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/2167931?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+California Daily Weather Forecasting Api : http://dataservice.accuweather.com/forecasts/v1/daily/5day/2167931?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+
+
+Texas Daily Weather Forecasting Api : http://dataservice.accuweather.com/forecasts/v1/daily/5day/335734?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+Texas Hourly Weather Forecasting Api :  http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/335734?apikey=W23ehxlLw56AEQIelQiAdGc1PVx
+
+New York Daily Weather Forecasting Api : http://dataservice.accuweather.com/forecasts/v1/daily/5day/349727?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+New York Hourly Weather Forecasting Api :  http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/349727?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+
+Minnesota Daily Weather Forecasting Api : http://dataservice.accuweather.com/forecasts/v1/daily/5day/2247825?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+Minnesota Hourly Weather Forecasting Api :  http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/2247825?apikey=W23ehxlLw56AEQIelQiAdGc1PVxIsKjA
+
