@@ -170,7 +170,7 @@ export default function Dashboard() {
 						</Select>
 					</Form.Item>
 					{NumberOfImages ? NumberOfImages.map((item, index) => (
-						<div key={index}>
+						<div key={index} style={{marginTop:'1rem'}}>
 							<FileUploader multiple={false} handleChange={handleChange(index)} name={`file[${index}]`} types={fileTypes} />
 							<div className="uploaded-images">
 							</div>
