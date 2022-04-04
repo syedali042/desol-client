@@ -50,7 +50,7 @@ export default function Dashboard() {
 		console.log('search:', val);
 	}
 	const onFinish = async values => {
-		// setLoading(true);
+		setLoading(true);
 		console.log(values)
 		const name = values.name;
 		const email = values.email;
@@ -89,7 +89,7 @@ export default function Dashboard() {
         } else {
             console.log('Error While Adding Vehicle');
         }
-		// setLoading(false)
+		setLoading(false)
 	}
 	usePage("Dashboard")
 
