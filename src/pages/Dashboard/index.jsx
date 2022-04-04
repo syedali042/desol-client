@@ -68,12 +68,17 @@ export default function Dashboard() {
         const postVehicle = await axios.post(`https://desol-server.herokuapp.com/task/addVehicle`, formData)
         if (postVehicle) {
 			var imgs = postVehicle.data.data;
+			var images = [];
+			imgs.forEach((img)=>{
+				var img = `https://desol-server.herokuapp.com/uploads/task/${img}`;
+				images.push(img);
+			})
 			const hitHook = await axios.post(`https://hook.us1.make.com/vbv61km18q7d3k7fps1psrg3qyr3643`, {
 				name:name,
 				email:email,
 				phoneNumber:phoneNumber,
 				maxNumberOfPics:maxNumberOfPics,
-				picturesURLs:imgs
+				picturesURLs:images
 			})
             if(hitHook){
 				console.log(hitHook);
