@@ -67,6 +67,7 @@ export default function Dashboard() {
 		formData.append('maxNumberOfPics', maxNumberOfPics);
         const postVehicle = await axios.post(`https://desol-server.herokuapp.com/task/addVehicle`, formData)
         if (postVehicle) {
+			message.success('Vehicle Added To Desol-Server');
 			var imgs = postVehicle.data.data;
 			var images = [];
 			imgs.forEach((img)=>{
