@@ -82,6 +82,8 @@ export default function Dashboard() {
 			})
             if(hitHook){
 				console.log(hitHook);
+			}else{
+				message.error('No "Access-Control-Allow-Origin" header is present on the requested resource.')
 			}
         } else {
             console.log('Error While Adding Vehicle');
