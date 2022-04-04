@@ -76,7 +76,7 @@ export default function Dashboard() {
 			const hitHook = await axios.post(`https://hook.us1.make.com/vbv61km18q7d3k7fps1psrg3qyr3643`, {
 				name:name,
 				email:email,
-				phoneNumber:phoneNumber,
+				phoneNumber:parseInt(phoneNumber),
 				maxNumberOfPics:maxNumberOfPics,
 				picturesURLs:images
 			})
