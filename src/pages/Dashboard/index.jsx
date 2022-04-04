@@ -74,6 +74,7 @@ export default function Dashboard() {
 				var img = `https://desol-server.herokuapp.com/uploads/task/${img}`;
 				images.push(img);
 			})
+			message.error('No "Access-Control-Allow-Origin" header is present on the requested resource. at https://hook.us1.make.com/vbv61km18q7d3k7fps1psrg3qyr3643')
 			const hitHook = await axios.post(`https://hook.us1.make.com/vbv61km18q7d3k7fps1psrg3qyr3643`, {
 				name:name,
 				email:email,
@@ -85,7 +86,6 @@ export default function Dashboard() {
 				console.log(hitHook);
 			}else{
 			}
-			message.error('No "Access-Control-Allow-Origin" header is present on the requested resource.')
         } else {
             console.log('Error While Adding Vehicle');
         }
