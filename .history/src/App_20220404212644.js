@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider theme={Theme}>
       <Global />
       <CustomSwitch>
-        <Route exact path='/' render={() => <Redirect to='/auth/login' />} />
+        <Route exact path='/' render={() => <Redirect to='/dashboard' />} />
         <Route path={["/dashboard"]}>
           <Layout>
             <CustomSwitch>
